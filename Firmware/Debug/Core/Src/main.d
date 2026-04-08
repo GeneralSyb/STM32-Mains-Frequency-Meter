@@ -1,0 +1,106 @@
+Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_ll_system.h \
+ ../Drivers/CMSIS/Device/ST/STM32C0xx/Include/stm32c0xx.h \
+ ../Drivers/CMSIS/Device/ST/STM32C0xx/Include/stm32c071xx.h \
+ ../Drivers/CMSIS/Include/core_cm0plus.h \
+ ../Drivers/CMSIS/Include/cmsis_version.h \
+ ../Drivers/CMSIS/Include/cmsis_compiler.h \
+ ../Drivers/CMSIS/Include/cmsis_gcc.h \
+ ../Drivers/CMSIS/Include/mpu_armv7.h \
+ ../Drivers/CMSIS/Device/ST/STM32C0xx/Include/system_stm32c0xx.h \
+ ../Core/Inc/stm32c0xx_hal_conf.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_rcc.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_def.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_ll_rcc.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_rcc_ex.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_gpio.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_gpio_ex.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_dma.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_dma_ex.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_cortex.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_exti.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_flash.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_flash_ex.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_pwr.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_pwr_ex.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_tim.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_tim_ex.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_uart.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_uart_ex.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_pcd.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_ll_usb.h \
+ ../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_pcd_ex.h \
+ C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/tusb.h \
+ C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/common/tusb_common.h \
+ C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/tusb_option.h \
+ C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/common/tusb_compiler.h \
+ ../Core/Inc/tusb_config.h \
+ C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/common/tusb_mcu.h \
+ C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/common/tusb_compiler.h \
+ C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/common/tusb_verify.h \
+ C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/common/tusb_types.h \
+ C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/common/tusb_debug.h \
+ C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/osal/osal.h \
+ C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/common/tusb_common.h \
+ C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/osal/osal_none.h \
+ C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/common/tusb_fifo.h \
+ C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/osal/osal.h \
+ C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/common/tusb_fifo.h \
+ C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/device/usbd.h \
+ C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/class/cdc/cdc_device.h \
+ C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/class/cdc/cdc.h
+../Core/Inc/main.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_ll_system.h:
+../Drivers/CMSIS/Device/ST/STM32C0xx/Include/stm32c0xx.h:
+../Drivers/CMSIS/Device/ST/STM32C0xx/Include/stm32c071xx.h:
+../Drivers/CMSIS/Include/core_cm0plus.h:
+../Drivers/CMSIS/Include/cmsis_version.h:
+../Drivers/CMSIS/Include/cmsis_compiler.h:
+../Drivers/CMSIS/Include/cmsis_gcc.h:
+../Drivers/CMSIS/Include/mpu_armv7.h:
+../Drivers/CMSIS/Device/ST/STM32C0xx/Include/system_stm32c0xx.h:
+../Core/Inc/stm32c0xx_hal_conf.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_rcc.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_def.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_ll_rcc.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_rcc_ex.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_gpio.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_gpio_ex.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_dma.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_dma_ex.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_cortex.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_exti.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_flash.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_flash_ex.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_pwr.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_pwr_ex.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_tim.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_tim_ex.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_uart.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_uart_ex.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_pcd.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_ll_usb.h:
+../Drivers/STM32C0xx_HAL_Driver/Inc/stm32c0xx_hal_pcd_ex.h:
+C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/tusb.h:
+C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/common/tusb_common.h:
+C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/tusb_option.h:
+C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/common/tusb_compiler.h:
+../Core/Inc/tusb_config.h:
+C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/common/tusb_mcu.h:
+C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/common/tusb_compiler.h:
+C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/common/tusb_verify.h:
+C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/common/tusb_types.h:
+C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/common/tusb_debug.h:
+C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/osal/osal.h:
+C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/common/tusb_common.h:
+C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/osal/osal_none.h:
+C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/common/tusb_fifo.h:
+C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/osal/osal.h:
+C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/common/tusb_fifo.h:
+C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/device/usbd.h:
+C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/class/cdc/cdc_device.h:
+C:/Users/SybDe/STM32CubeIDE/workspace_1.19.0/freq_meter_V0.2/tinyusb-src/class/cdc/cdc.h:
