@@ -1,5 +1,5 @@
 # STM32-Mains-Frequency-Meter
-Simple high precision GPS calibrated mains frequency meter using an STM32C0.
+Simple high precision GPS calibrated mains frequency meter using an STM32C0. Accurate to within a few mHz at 50 Hz.
 # CAUTION: MAINS VOLTAGE
 This project was not designed with mains voltage safety as the top priority. Please don't take this project as an example, research safety standards and use common sense when dealing with these voltages!!!
 ![DSC_3271_web](https://github.com/user-attachments/assets/b9092e3c-3408-40da-9792-df35500f15be)
