@@ -2,7 +2,7 @@
 Simple high precision GPS calibrated mains frequency meter using an STM32C0.
 # CAUTION: MAINS VOLTAGE
 This project was not designed with mains voltage safety as the top priority. Please don't take this project as an example, research safety standards and use common sense when dealing with these voltages!!!
-!\[DSC\_3271\_web](https://github.com/user-attachments/assets/16756c67-86ce-4272-b00c-3f45d3efd7de)
+![DSC_3271_web](https://github.com/user-attachments/assets/b9092e3c-3408-40da-9792-df35500f15be)
 # Theory of operation
 Most frequency meters use a zero crossing detector and a comparator to generate a square wave signal which should have the exact frequency of the mains net. This can be done in many ways, but for safety and simplicity a 15VAC transformer was used to isolate the low voltage digital section from the mains. Due to the fact that the transformer is not put under any load, the voltage is quite a bit higher than 15V. In this case about 23V RMS was measured on the output of the transformer when powered with \~230VAC. This voltage was taken into account when calculating the circuit that goes in front of the comparator. The signal is AC coupled and adjusted up with a voltage divider. The non-inverting input of the comparator is connected to a simple voltage divider with a multi-turn potentiometer. The duty cycle of the output signal is not very important, but it also shouldn't be on the edge. So anywhere from 25-75% duty cycle would work perfectly fine.
 ## STM32 Timers
